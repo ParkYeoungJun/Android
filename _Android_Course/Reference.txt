@@ -1,0 +1,16 @@
+preferences
+- settting
+- set of data stored
+  = to remember user(increase user friendly level)
+
+- private preference
+	= 오직 자기 activity에서만 사용 가능
+- shared preference 
+	= context = shared preference (각 activity에 preference 공유)
+
+- PreferenceActivity
+- PreferenceFragment
+
+- data = 여러 형의 data(integer or boolean or string and so on) Editor을 사용
+type = boolean,float,integer,long,string
+- data의 양은 정해져있음
