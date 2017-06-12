@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Settings">
+
+        <EditTextPreference android:title="Password"
+            android:summary="Set Your Pssword"
+            android:key="prefUserPassword"/>
+        </PreferenceCategory>
+
+    <PreferenceCategory android:title="Security Settings">
+       <CheckBoxPreference
+           android:defaultValue="false"
+           android:key="prefLockScreen"
+           android:summary="Lock The Screen With Password"
+           android:title="Screen Lock">
+           </CheckBoxPreference>
+        <ListPreference
+            android:key="prefUpdateFrequency"
+            android:title="Reminder for Update"
+            android:summary="Set Update Remainder Frequency"
+            android:entries="@array/updateFrequency"
+            android:entryValues="@array/updateFrequencyValues" />
+        </PreferenceCategory>
+</PreferenceScreen>

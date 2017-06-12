@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/capturelayout">
+    <EditText
+        android:id="@+id/modifyCompany"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp"/>
+
+    <EditText
+        android:id="@+id/modifyName"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"/>
+
+    <EditText
+        android:id="@+id/modifyContact"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"/>
+</LinearLayout>

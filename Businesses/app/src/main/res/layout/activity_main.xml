@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Card"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/mycard"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="My Business Card"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/create"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Create BusinessCard"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show List"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:text="Exit"
+        android:onClick="clickExit"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

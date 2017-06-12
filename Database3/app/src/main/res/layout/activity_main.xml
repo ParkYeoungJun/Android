@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Origin of Apple"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/korea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Korea"/>
+
+    <CheckBox
+        android:id="@+id/newzealand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Zealand"/>
+
+    <CheckBox
+        android:id="@+id/japen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Japen"/>
+
+    <TextView
+        android:text="Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/editText1">
+    </EditText>
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addUser"
+        android:text="Insert"/>
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deleteFirstUser"
+        android:text="Check Total"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="delete"
+        android:text="Delete"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>
+

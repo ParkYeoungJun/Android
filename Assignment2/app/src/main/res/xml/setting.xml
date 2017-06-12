@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Win Strike">
+        <ListPreference
+            android:key="list"
+            android:title="Set WinStrike"
+            android:summary="Set Win Count"
+            android:entries="@array/number"
+            android:entryValues="@array/value"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="User Name">
+        <EditTextPreference android:title="User Name"
+            android:summary="Insert User Name"
+            android:key="name"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
